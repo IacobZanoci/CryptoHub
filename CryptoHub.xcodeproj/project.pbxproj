@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		424021422CC1594200DF0843 /* Coin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 424021412CC1594200DF0843 /* Coin.swift */; };
 		4268D26B2CC134B5000B30A1 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4268D2632CC134B5000B30A1 /* Color.swift */; };
 		4268D26C2CC134B5000B30A1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4268D2682CC134B5000B30A1 /* ContentView.swift */; };
 		4268D26D2CC134B5000B30A1 /* CryptoHubApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4268D2692CC134B5000B30A1 /* CryptoHubApp.swift */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		424021412CC1594200DF0843 /* Coin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coin.swift; sourceTree = "<group>"; };
 		4268D24D2CC112AC000B30A1 /* CryptoHub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CryptoHub.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4268D2632CC134B5000B30A1 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 		4268D2652CC134B5000B30A1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -40,6 +42,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		424021402CC158FF00DF0843 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				424021412CC1594200DF0843 /* Coin.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		4268D2442CC112AC000B30A1 = {
 			isa = PBXGroup;
 			children = (
@@ -86,6 +96,7 @@
 			children = (
 				4268D2692CC134B5000B30A1 /* CryptoHubApp.swift */,
 				4268D2642CC134B5000B30A1 /* Extensions */,
+				424021402CC158FF00DF0843 /* Models */,
 				4268D2622CC134B5000B30A1 /* Core */,
 				4268D2682CC134B5000B30A1 /* ContentView.swift */,
 				4268D2662CC134B5000B30A1 /* Preview Content */,
@@ -214,6 +225,7 @@
 				4268D2822CC13A18000B30A1 /* HomeView.swift in Sources */,
 				4268D26D2CC134B5000B30A1 /* CryptoHubApp.swift in Sources */,
 				4268D2842CC1536B000B30A1 /* CircleButtonAnimationView.swift in Sources */,
+				424021422CC1594200DF0843 /* Coin.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -357,7 +369,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -393,7 +405,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
