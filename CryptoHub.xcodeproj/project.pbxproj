@@ -19,6 +19,7 @@
 		4268D27C2CC1392D000B30A1 /* CircleButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4268D27B2CC1392D000B30A1 /* CircleButtonView.swift */; };
 		4268D2822CC13A18000B30A1 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4268D2812CC13A18000B30A1 /* HomeView.swift */; };
 		4268D2842CC1536B000B30A1 /* CircleButtonAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4268D2832CC1536B000B30A1 /* CircleButtonAnimationView.swift */; };
+		428100832CC2E7AE00CAF82D /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 428100822CC2E7AE00CAF82D /* HomeViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		4268D27B2CC1392D000B30A1 /* CircleButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleButtonView.swift; sourceTree = "<group>"; };
 		4268D2812CC13A18000B30A1 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		4268D2832CC1536B000B30A1 /* CircleButtonAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleButtonAnimationView.swift; sourceTree = "<group>"; };
+		428100822CC2E7AE00CAF82D /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,6 +144,7 @@
 		4268D27F2CC139F7000B30A1 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				428100822CC2E7AE00CAF82D /* HomeViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -229,6 +232,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				424021442CC2BD1800DF0843 /* CoinRowView.swift in Sources */,
+				428100832CC2E7AE00CAF82D /* HomeViewModel.swift in Sources */,
 				4268D26B2CC134B5000B30A1 /* Color.swift in Sources */,
 				4268D26C2CC134B5000B30A1 /* ContentView.swift in Sources */,
 				4268D27C2CC1392D000B30A1 /* CircleButtonView.swift in Sources */,
