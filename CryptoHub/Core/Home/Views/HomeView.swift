@@ -72,7 +72,7 @@ extension HomeView {
     
     private var homeHeader: some View {
         HStack {
-            CircleButtonView(iconName: showPortfolio ? "plus" : "info")
+            CircleButtonView(iconName: showPortfolio ? "plus" : "bitcoinsign.bank.building.fill")
                 .animation(nil, value: showPortfolio)
                 .onTapGesture {
                     if showPortfolio {
